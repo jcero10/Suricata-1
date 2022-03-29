@@ -1,3 +1,18 @@
+.color-nav {
+    background-color: #e83e8c;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+header h1{
+    text-align: center;
+    color: #212529 ;
+    font-weight: 700;
+    font-size: 3.75em;
+}
+
 .icons-section {
     background-color: #17a2b8;
     color: white;
@@ -16,4 +31,8 @@
 
 .color-footer {
     background-color: #e83e8c;
+}
+
+.footer-logo{
+    max-height: 100px;
 }
