@@ -19,7 +19,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark static-top color-nav">
             <div class="container ">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand logo" href="#">
                 <img src="assets/img/logo.png" alt="..." height="36">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,24 +42,31 @@
         </nav>
         
 
+        <!--Container acota la anchura de visualización, al utilizar fluid, muestra al 100%de la página-->
         <header class="container hero">
-            <h1 class="font-weight-bold my-5"> Nuestros Productos</h1>
+            <h1 class="text-black-50 text-center my-5">Nuestros Productos</h1>
         </header>
 
         <section class="container pb-5">
+            <!-- definición de margin and padding-->
             <div class="row mb-5 mx-3">
+                <!-- rejillas-->
                 <div class="col-sm-12 col-md-4">
+                    <!-- A card is a flexible and extensible content container -->
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/colaciones.jpg" class="card-img-top" alt="...">
+                        <!-- Use it whenever you need a padded section within a card-->
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold"> Colaciones</h5>
                             <p class="card-text text-truncate">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                         </div>
+                        <!-- Add .list-group-flush to remove some borders and rounded corners to render list group items edge-to-edge in a parent container (e.g., cards).-->
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Morbi leo risus</li>
                             <li class="list-group-item">Porta ac consectetur ac</li>
                         </ul>
                         <div class="card-body">
+                            <!--  links are added and placed next to each other by adding .card-link -->
                             <a href="#" class="card-link">Ver más</a>
                             <a href="#" class="card-link">Comprar</a>
                         </div>
@@ -160,11 +167,12 @@
             </div>
         </section>
 
-        <section class="d-sm-none container-fluid d-md-block py-5 mt-5 big-info icons-section">
-            <div class="container">
+        <!-- d-none d-lg-block oculta con pantallas pequeñas-->
+        <section class="d-none d-lg-block container-fluid py-5 mt-5 bg-info icons-section">
+            <div class="container ">
                 <div class="row">
                     <div class="col-lg-4 tarjetas">
-                        <h2 class="font-weight-bold">Ahora aceptamos</h2>
+                        <h2 >Ahora aceptamos</h2>
                     </div>
                     <div class="col-lg-8 text-right fa-iconos">
                         <i class="fab fa-cc-mastercard"></i>
@@ -180,7 +188,7 @@
 
         </section>
 
-        <footer class="container-fluid py-5 color-footer">
+        <footer class="container-fluid color-footer py-5">
             <img src= "assets/img/logo-footer.png" class="mx-auto d-block footer-logo">
         </footer>
         

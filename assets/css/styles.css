@@ -1,24 +1,25 @@
 .color-nav {
     background-color: #e83e8c;
 }
+.logo {
+    max-height: 50px;
+}
 
 body {
     font-family: 'Open Sans';
 }
-
-header h1{
-    text-align: center;
-    color: #212529 ;
+.hero h1{
     font-weight: 700;
+    color: #212529;
     font-size: 3.75em;
 }
+
 
 .icons-section {
     background-color: #17a2b8;
     color: white;
     font-size: 2.3em;
-    text-align: center;
-    
+    font-weight: 400;
 }
 
 .fa-iconos {
@@ -27,6 +28,7 @@ header h1{
 .tarjetas h2{
     font-size: 0.99em;
     padding-top: 10%;
+    font-size: 400;
 } 
 
 .color-footer {
@@ -35,4 +37,5 @@ header h1{
 
 .footer-logo{
     max-height: 100px;
+    
 }
